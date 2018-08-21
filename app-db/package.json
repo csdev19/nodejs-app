@@ -1,0 +1,27 @@
+{
+  "name": "app-db",
+  "version": "1.0.0",
+  "description": "a simple iot app - db ",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pystudent1913/nodejs-app.git"
+  },
+  "author": "cristian - pystudent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pystudent1913/nodejs-app/issues"
+  },
+  "homepage": "https://github.com/pystudent1913/nodejs-app#readme",
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "dependencies": {
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.38.0"
+  }
+}
